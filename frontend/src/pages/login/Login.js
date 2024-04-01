@@ -42,7 +42,7 @@ const Login = ({ setPage }) => {
                 </div>
                 <div className='input'>
                     <label htmlFor="password">Password: </label>
-                    <input type="text" id='password' name='password' onChange={handleChange} />
+                    <input type="password" id='password' name='password' onChange={handleChange} />
                 </div>
                 <input type="submit" value='Login' className='loginBtn' />
             </form>
